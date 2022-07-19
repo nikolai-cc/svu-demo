@@ -1,0 +1,44 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+code {
+    font-family: courier, monospace;
+    background-color: aquamarine;
+    border-radius: 0.5em;
+    padding: 0.1em;
+}
+
+a {
+    font-family: courier, monospace;
+    color: seagreen;
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 6px;
+}
+
+a.active {
+    text-decoration-color: seagreen;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+code a {
+    text-decoration: none;
+    font-weight: bold;
+    color: maroon;
+}
+
+code a:hover {
+    background-color: seagreen;
+    border-radius: 0.5em;
+    padding: 0.1em;
+    color: white;
+}
